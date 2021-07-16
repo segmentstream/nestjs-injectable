@@ -1,0 +1,18 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "max-classes-per-file": false,
+    "ban-types": false,
+    "only-arrow-functions": false,
+    "no-object-literal-type-assertion": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "no-empty": false,
+    "prefer-object-spread": false
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"]
+}
